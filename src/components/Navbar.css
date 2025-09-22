@@ -1,0 +1,132 @@
+/* ================= NAVBAR BASE ================= */
+.nav-bg {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(to right, #f6f3f6, #4f7db0);
+  padding: 10px 20px;
+  background-size:cover;
+}
+
+.logo-img {
+  height: 80px;
+  width: 70px;
+  padding: 0px;
+}
+
+.search-box {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.search-box input {
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  outline: none;
+  width: 200px;
+}
+
+.search-box button {
+  padding: 6px 12px;
+  border: none;
+  border-radius: 20px;
+  background: white;
+  color: #0a66c2;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.search-box button:hover {
+  background: hsl(210, 100%, 25%);
+  color: white;
+}
+
+.nav-menu {
+  display: flex;
+  gap: 30px;
+  font-weight: 600;
+  font-size: 20px;
+  color: rgb(4, 8, 35);
+}
+
+.nav-menu div:hover {
+  color: rgb(54, 67, 237);
+}
+
+.arrow {
+  margin-left: 5px;
+  font-size: 12px;
+  color: rgb(156, 5, 158);
+}
+
+/* ================= MEDIA QUERIES ================= */
+
+/* Tablets (1024px and below) */
+@media (max-width: 1024px) {
+  .nav-bg {
+    padding: 10px 15px;
+  }
+
+  .logo-img {
+    height: 80px;
+    width: 70px; /* can adjust if needed */
+  }
+
+  .nav-menu {
+    gap: 20px;
+    font-size: 18px;
+  }
+
+  .search-box input {
+    width: 160px;
+  }
+}
+
+/* Mobiles (768px and below) */
+@media (max-width: 768px) {
+  .nav-bg {
+    flex-direction: column;
+    align-items: center;
+    padding: 15px 10px;
+  }
+
+  .logo-img {
+    height: 70px;
+    width: 70px;
+  }
+
+  .nav-menu {
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    font-size: 16px;
+    margin-top: 10px;
+  }
+
+  .search-box {
+    margin-top: 10px;
+  }
+
+  .search-box input {
+    width: 140px;
+  }
+}
+
+/* Small Mobiles (480px and below) */
+@media (max-width: 480px) {
+  .logo-img {
+    height: 60px;
+    width: 60px;
+  }
+
+  .nav-menu {
+    gap: 10px;
+    font-size: 14px;
+  }
+
+  .search-box input {
+    width: 120px;
+  }
+}

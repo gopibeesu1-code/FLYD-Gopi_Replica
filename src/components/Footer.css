@@ -1,0 +1,159 @@
+.footer {
+  background: linear-gradient(to right, #e6e6e6, #1f50ff);
+  padding: 40px 20px;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.footer-logo {
+  flex: 1;
+  min-width: 150px;
+}
+
+.footer-logo .logo-img {
+  width: 100px;
+  height: 123px;
+  margin-bottom: 10px;
+}
+
+.footer-logo p {
+  font-size: 20px;
+  color: #0d1120;
+  font-family: 'roboto';
+}
+
+.footer-links {
+  flex: 2;
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  min-width: 300px;
+}
+
+.footer-links ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-links ul li {
+  margin-bottom: 10px;
+  font-size: 23px;
+  font-family: 'roboto';
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.footer-links ul li:hover {
+  color: #fcfcfc;
+}
+
+.footer-social {
+  flex: 1;
+  min-width: 180px;
+  margin-left: 71px;
+}
+
+.footer-social h3 {
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+
+.social-icons {
+  display: flex;
+  gap: 15px;
+}
+
+.social-icons a {
+  background: #170837;
+  width: 30px;
+  color: white;
+  font-size: 18px;
+  padding: 10px;
+  border-radius: 6px;
+  text-align: center;
+  transition: background 0.3s;
+}
+
+.social-icons a:hover {
+  background: #5050f7;
+}
+
+/* Responsive for tablets */
+@media (max-width: 992px) {
+  .footer {
+    font-size: 18px;
+    padding: 30px 15px;
+  }
+
+  .footer-links ul li {
+    font-size: 20px;
+  }
+
+  .footer-logo .logo-img {
+    width: 85px;
+    height: 105px;
+  }
+}
+
+/* Responsive for small tablets & large phones */
+@media (max-width: 768px) {
+  .footer-container {
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+  }
+
+  .footer-links {
+    flex-direction: column;
+    gap: 20px;
+    margin: 20px 0;
+  }
+
+  .footer-social {
+    margin-top: 20px;
+    margin-left: 0;
+  }
+}
+
+/* Responsive for mobile phones */
+@media (max-width: 480px) {
+  .footer {
+    font-size: 16px;
+    padding: 20px 10px;
+  }
+
+  .footer-logo .logo-img {
+    width: 70px;
+    height: 90px;
+  }
+
+  .footer-logo p {
+    font-size: 16px;
+  }
+
+  .footer-links ul li {
+    font-size: 18px;
+  }
+
+.social-media-text {
+    font-family: 'roboto';
+    font-size:35px;
+}
+  .social-icons {
+    gap: 10px;
+  }
+
+  .social-icons a {
+    width: 25px;
+    font-size: 16px;
+    padding: 8px;
+  }
+}
+
