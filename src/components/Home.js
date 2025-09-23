@@ -1,5 +1,5 @@
 import React from "react";
-import Student from "./components/StudentTable/Student";
+import Student from "../components/studenttable/student";
 import studentimg from "../assets/student.png";  
 import Accommodationsupport from "../assets/Accommodationsupport.png";
 import Admissionsuccessrate from "../assets/admissionsuccessrate.png"

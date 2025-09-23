@@ -6,7 +6,7 @@ import "./student.css";
 // import { useNavigate } from "react-router-dom";
 // import { useLocation } from "react-router-dom";
 
-// import samplePDF from "../../assets/sample.pdf";
+import samplePDF from "../../assets/sample.pdf";
 
 
 
