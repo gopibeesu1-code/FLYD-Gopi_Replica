@@ -375,3 +375,79 @@
   text-align: left;
   padding-left: 5%;
 }
+
+
+/* Mobile landscape (<=768px) */
+@media (max-width: 768px) {
+  .branches-container {
+    text-align: center;
+  }
+
+  .cards-container {
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+  }
+
+  .card3 {
+    width: 220px;
+  }
+}
+
+/* Small mobile (<=480px) */
+@media (max-width: 480px) {
+  .branches-container {
+    padding: 0 10px;
+    text-align: center;
+  }
+
+  .cards-container {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .card3 {
+    width: 100%;
+    max-width: 250px;
+    padding: 15px 10px;
+  }
+
+  .card3 .address p {
+    font-size: 12px;
+  }
+
+  .h2 {
+    font-size: 16px;
+  }
+}
+
+.branch-image {
+  width: 400px; /* default width */
+  height: auto; /* maintain aspect ratio */
+  display: block;
+  margin: 0 auto;
+}
+
+/* ================= MEDIA QUERIES ================= */
+
+/* Tablets (<=1024px) */
+@media (max-width: 1024px) {
+  .branch-image {
+    width: 300px;
+  }
+}
+
+/* Mobile landscape (<=768px) */
+@media (max-width: 768px) {
+  .branch-image {
+    width: 220px;
+  }
+}
+
+/* Small mobile (<=480px) */
+@media (max-width: 480px) {
+  .branch-image {
+    width: 150px;
+  }
+}

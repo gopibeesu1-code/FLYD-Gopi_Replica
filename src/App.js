@@ -4,7 +4,8 @@ import Navbar from "./components/Navbar";
 import Home from "./components/Home";
 import Footer from "./components/Footer";
 import AboutUs from "./components/pages/AboutUs";
-import Student from "./components/studenttable/Student";
+import Student from "./components/studenttable/student";
+
 
 
 

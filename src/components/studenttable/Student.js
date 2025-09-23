@@ -137,9 +137,12 @@ const Student = () => {
   
 
   return (
-    <div className="student-page">
-      <h2>Manage Educational Information</h2>
 
+    
+
+    <div className="student-page">
+      <div className="info-text">
+      <h2>Manage Educational Information</h2>
       {/* First Table */}
       <div className="main-table-container">
         <table className="student-table">
@@ -169,8 +172,10 @@ const Student = () => {
           </tbody>
         </table>
       </div>
+    </div>
 
       {/* Second Table */}
+      <div className="student-page">
       {selectedStudent && (
         <div className="student-detail-container">
           <button className="back-btn" onClick={() => setSelectedStudent(null)}>← Back</button>
@@ -233,6 +238,8 @@ const Student = () => {
         </div>
       )}
     </div>
+    </div>
+
   );
 };
 

@@ -1,8 +1,9 @@
 import React from "react";
-import Student from "./studenttable/Student";
-import student from "../assets/student.png";
+
+import Student from "./studenttable/student";
+import studentimg from "../assets/student.png";  
 import Accommodationsupport from "../assets/Accommodationsupport.png";
-import Admissionsuccessrate from "../assets/admissionsuccessrate.png";
+import Admissionsuccessrate from "../assets/admissionsuccessrate.png"
 import Completeapplicationssupport from "../assets/Completeapplicationssupport.png";
 import Feepayment from "../assets/Feepayment.png";
 import GuidanceonVisa from "../assets/guidanceonVisa.png";
@@ -96,6 +97,9 @@ const [formData, setFormData] = useState({
 
   return (
     <div>
+      <div>
+      </div>
+      
     <div className="home-bg">
       <div className="main-bg">
         <div className="h3">
@@ -106,7 +110,7 @@ const [formData, setFormData] = useState({
           </h3>
         </div>
         <div>
-          <img src={student} alt="studentlogo" className="student-img"/>
+          <img src={studentimg} alt="studentlogo" className="student-img"/>
         </div>
         
 <div>
@@ -359,7 +363,7 @@ const [formData, setFormData] = useState({
       <h2 className="title2">
         Our <span>Branches</span>
       </h2>
-      <img src={Branches} alt='barnches-logo'/>
+      <img src={Branches} alt='barnches-logo' className="branch-image"/>
     </div>
 
     <div className="cards-container">
