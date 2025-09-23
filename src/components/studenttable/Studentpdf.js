@@ -16,7 +16,7 @@ const Studentpdf = () => {
           <p><strong>Course:</strong> {rowData.course}</p>
         </div>
       ) : (
-        <p>No data to display</p>
+        <p>No data to display</p> 
       )}
     </div>
   );
