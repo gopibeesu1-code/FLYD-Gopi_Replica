@@ -12,7 +12,7 @@ import samplePDF from "../../assets/sample.pdf";
 
 
 
-const Student = () => {
+const student = () => {
     
  
   const location = useLocation();
@@ -237,4 +237,4 @@ const Student = () => {
   )
 }
 
-export default Student
+export default student

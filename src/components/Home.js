@@ -1,5 +1,5 @@
 import React from "react";
-import Student from "../components/studenttable/student";
+// import Student from "../components/studenttable/Student";
 import studentimg from "../assets/student.png";  
 import Accommodationsupport from "../assets/Accommodationsupport.png";
 import Admissionsuccessrate from "../assets/admissionsuccessrate.png"
@@ -27,6 +27,7 @@ import { FaMobileAlt } from "react-icons/fa";
 import "./Home.css";
 import { useState, useEffect } from "react";
 import axios from "axios";
+import Student from "./studenttable/student";
 
 const Home = () => {
 
@@ -355,6 +356,7 @@ const [formData, setFormData] = useState({
 
     </div>
     </div>
+{/* <Student/> */}
 <Student/>
    <div>
     <div>
