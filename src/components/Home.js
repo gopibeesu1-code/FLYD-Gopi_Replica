@@ -1,6 +1,5 @@
 import React from "react";
-
-import Student from "./studenttable/student";
+import Student from "./components/StudentTable/Student";
 import studentimg from "../assets/student.png";  
 import Accommodationsupport from "../assets/Accommodationsupport.png";
 import Admissionsuccessrate from "../assets/admissionsuccessrate.png"
@@ -356,7 +355,6 @@ const [formData, setFormData] = useState({
 
     </div>
     </div>
-
 <Student/>
    <div>
     <div>

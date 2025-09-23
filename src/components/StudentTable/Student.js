@@ -6,15 +6,14 @@ import "./student.css";
 // import { useNavigate } from "react-router-dom";
 // import { useLocation } from "react-router-dom";
 
-import samplePDF from "../../assets/sample.pdf";
+// import samplePDF from "../../assets/sample.pdf";
 
 
 
 
 
-// Main Student Component
 const Student = () => {
-
+    
  
   const location = useLocation();
   const rowData = location.state?.rowData || null;
@@ -135,12 +134,8 @@ const Student = () => {
     }
   };
   
-
   return (
-
-    
-
-    <div className="student-page">
+       <div className="student-page">
       <div className="info-text">
       <h2>Manage Educational Information</h2>
       {/* First Table */}
@@ -239,8 +234,7 @@ const Student = () => {
       )}
     </div>
     </div>
+  )
+}
 
-  );
-};
-
-export default Student;
+export default Student
